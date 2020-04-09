@@ -1,5 +1,13 @@
 # JsonSerializerBenchmark
-A custom benchmark where I test multiple JSON serializers to check how quickly they can serialize and deserialize a UserProfile object with some data in. 
+A custom benchmark where I test multiple JSON serializers to check how quickly they can serialize and deserialize a UserProfile object with some data in a million times. 
+
+Everything in .NET Core 3.1.2. The serializers tested are:
+
+1. NewtonSoft
+1. ServiceStack.Text
+1. Jil
+1. System.Text.Json
+1. Utf8Json
 
 ## Build and run
 
